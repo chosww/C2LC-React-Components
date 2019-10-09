@@ -23,7 +23,7 @@ export class Reakit extends Component {
             <div>
                 <h1>Reakit Components</h1>
                 <p>{this.state.display}</p>
-                <Button onClick={this.changeMessage}>Reakit</Button>
+                <Button aria-label='hello' onClick={this.changeMessage}>Reakit</Button>
                 <Checkbox onChange={this.changeMessage}/>
                 {/* <RadioGroup>
                     <Radio/>

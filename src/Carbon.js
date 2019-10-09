@@ -48,13 +48,15 @@ export class Carbon extends Component {
                 </RadioButtonGroup>
                 <OverflowMenu
                     direction='bottom'
-                    ariaLabel='Menu'
+                    ariaLabel='Setting options'
                 >
                     <OverflowMenuItem
                         itemText='item1'
+                        aria-label='select for item1'
                     />
                     <OverflowMenuItem
                         itemText='item2'
+                        aria-label='select for item2'
                     />
                 </OverflowMenu>
                 <Tabs
@@ -63,9 +65,11 @@ export class Carbon extends Component {
                 >
                     <Tab
                     label="Tab label 1"
+                    aria-label='about this'
                     />
                     <Tab
                     label="Tab label 2"
+                    arua-label='not about this'
                     />
                 </Tabs>
             </div>

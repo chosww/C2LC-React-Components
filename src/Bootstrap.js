@@ -21,7 +21,8 @@ export class Bootstrap extends Component {
                 <h1>Bootstrap Components</h1>
                 <Button variant="outline-success" size='lg' disabled>Success!</Button>
                 <Button variant="outline-success" size='lg' onClick={this.updateContent}>Success!</Button>
-                <p>{this.state.content}</p>
+                {/* use aria-live property for voiceover to grab updated contents */}
+                <p aria-live='passive'>{this.state.content}</p>
                 <Form>
                     {['checkbox', 'radio'].map(type=>(
                     <div key={`default-${type}`}>
