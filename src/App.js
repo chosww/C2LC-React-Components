@@ -6,6 +6,7 @@ import Reakit from './Reakit';
 import Carbon from './Carbon';
 import Bootstrap from './Bootstrap';
 import MaterialUi from './MaterialUi';
+import GrommetComp from './Grommet';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Reakit />
       <Carbon />
       <MaterialUi />
+      <GrommetComp />
     </div>
   );
 }
