@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Checkbox, DropDown, FormControl, FormControlLabel, Menu, MenuItem, Slider, Switch } from '@material-ui/core';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
+import Draggable from 'react-draggable';
 
 const StyledSlider = withStyles({
     root: {
@@ -86,6 +87,15 @@ export class MaterialUi extends Component {
                 >
                     Open Menu
                 </Button>
+                <Draggable>
+                    <Button
+                        aria-label='draggable button'
+                        variant='contained'
+                        color='primary'
+                    >
+                        Draggable Button
+                    </Button>
+                </Draggable>
                 <StyledMenu
                     id='customized-menu'
                     anchorEl={this.state.anchorEl}

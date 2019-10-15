@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Button, Form, Dropdown } from 'react-bootstrap';
+import Draggable from 'react-draggable';
 
 export class Bootstrap extends Component {
     constructor(props) {
@@ -21,6 +22,9 @@ export class Bootstrap extends Component {
                 <h1>Bootstrap Components</h1>
                 <Button variant="outline-success" size='lg' disabled>Success!</Button>
                 <Button variant="outline-success" size='lg' onClick={this.updateContent}>Success!</Button>
+                <Draggable>
+                    <Button size='lg'>Draggable Button</Button>
+                </Draggable>
                 {/* use aria-live property for voiceover to grab updated contents */}
                 <p aria-live='passive'>{this.state.content}</p>
                 <Form>

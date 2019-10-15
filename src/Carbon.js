@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Checkbox, Dropdown, Toggle, Slider, RadioButton, RadioButtonGroup, OverflowMenu, OverflowMenuItem, Tabs, Tab } from 'carbon-components-react';
+import Draggable from 'react-draggable';
 
 export class Carbon extends Component {
     constructor(props) {
@@ -20,6 +21,9 @@ export class Carbon extends Component {
             <div>
                 <h1>Carbon components</h1>
                 <Button onClick={this.updateContent}>Carbon</Button>
+                <Draggable>
+                    <Button>Draggable Button</Button>
+                </Draggable>
                 <p>{this.state.content}</p>
                 <Checkbox id='1' labelText='hello' />
                 <Dropdown id='Dropdown' label='Item List' items={['item1', 'item2']}/>
