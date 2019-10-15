@@ -12,11 +12,14 @@
     "carbon-components": "^10.6.4",
     "carbon-components-react": "^7.6.4",
     "carbon-icons": "^7.0.7",
+    "grommet": "^2.7.9",
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2",
+    "react-draggable": "^4.0.3",
     "react-scripts": "3.2.0",
-    "reakit": "^1.0.0-beta.8"
+    "reakit": "^1.0.0-beta.8",
+    "styled-components": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
