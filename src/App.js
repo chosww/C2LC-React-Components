@@ -13,8 +13,6 @@ function App() {
     <div className="App">
       <p>this is working</p>
       <Bootstrap />
-      <Reakit />
-      <Carbon />
       <MaterialUi />
       <GrommetComp />
     </div>
