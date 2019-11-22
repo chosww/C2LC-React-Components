@@ -1,3 +1,7 @@
 [submodule "SubBranch1"]
 	path = SubBranch1
 	url = https://github.com/chosww/C2LC-React-Components.git
+[submodule "C2LC-React-Components"]
+	path = SubBranch2
+	url = https://github.com/chosww/C2LC-React-Components.git
+	branch = SubBranch2
