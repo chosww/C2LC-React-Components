@@ -17,7 +17,7 @@
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2",
     "react-draggable": "^4.0.3",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "reakit": "^1.0.0-beta.8",
     "styled-components": "^4.4.0"
   },
